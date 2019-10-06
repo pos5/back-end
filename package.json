@@ -31,8 +31,8 @@
   },
   "scripts": {
     "start": "ts-node ./src/index.ts",
-    "start:dev": "nodemon",
     "build": "tsc",
-    "postinstall": "npm run build"
+    "postinstall": "npm run build",
+    "start:dev": "nodemon"
   }
 }
