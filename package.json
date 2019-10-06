@@ -30,7 +30,7 @@
     "typeorm": "0.2.7"
   },
   "scripts": {
-    "postinstall": "cd pos-api && npm install",
+    "postinstall": "npm install",
     "start": "nodemon"
   }
 }
