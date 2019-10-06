@@ -30,6 +30,7 @@
     "typeorm": "0.2.7"
   },
   "scripts": {
-    "start": "nodemon"
+    "server": "nodemon",
+    "start": "node index.js"
   }
 }
