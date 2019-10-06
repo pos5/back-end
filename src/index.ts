@@ -1,4 +1,4 @@
-import 'reflect-metadata';
+
 import { verify } from 'jsonwebtoken';
 import { openConnection } from './persistence';
 import { createExpressServer, useContainer, Action } from 'routing-controllers';
