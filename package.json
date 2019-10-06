@@ -30,7 +30,7 @@
     "typeorm": "0.2.7"
   },
   "scripts": {
-    "postinstall": "npm install",
+    "postinstall": "npm i",
     "start": "nodemon"
   }
 }
