@@ -30,6 +30,6 @@
     "typeorm": "0.2.7"
   },
   "scripts": {
-    "start": "nodemon src/index.ts"
+    "start": "ts-node src/index.ts"
   }
 }
