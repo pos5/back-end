@@ -30,9 +30,9 @@
     "typeorm": "0.2.7"
   },
   "scripts": {
-    "start": "ts-node ./src/index.ts",
-    "build": "tsc",
-    "postinstall": "npm run build",
+    "start": "node ./src/index.ts",
+    "tsc": "tsc",
+    "postinstall": "npm run tsc",
     "start:dev": "nodemon"
   }
 }
