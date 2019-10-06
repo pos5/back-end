@@ -8,6 +8,8 @@ import { config } from './config';
 import { Role } from './entity/User';
 import { Claim } from './dtos/authTypes';
 
+require('reflect-metadata');
+
 async function authorizationChecker(
   action: Action,
   roles: Role[]
