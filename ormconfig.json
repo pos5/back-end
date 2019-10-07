@@ -1,6 +1,9 @@
 {
   "type": "postgres",
   "database": "database.postgress",
+  "port": 5432,
+  "username": "password",
+  "password": "username",
   "synchronize": true,
   "logging": false,
   "entities": [
