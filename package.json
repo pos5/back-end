@@ -33,8 +33,7 @@
   },
   "scripts": {
     "start": "ts-node ./src/index.ts",
-    "tsc": "tsc",
-    "postinstall": "npm run tsc",
+    "postinstall": "tsc",
     "start:dev": "nodemon"
   }
 }
