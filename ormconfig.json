@@ -2,8 +2,8 @@
   "type": "postgres",
   "database": "database.postgress",
   "port": 5432,
-  "username": "password",
-  "password": "username",
+  "username": "xmggsfcsbdzxad",
+  "password": "81bed0cab62e75518b6eefd1d7005181e9d896ef34a9bb5bfe2becf510520309",
   "synchronize": true,
   "logging": false,
   "entities": [

@@ -51,7 +51,7 @@ async function createServer(): Promise<any> {
     // its important to set container before any operation you do with routing-controllers,
     // including importing controllers
     useContainer(Container);
-    console.log('here')
+
     const app: Application = createExpressServer({
       authorizationChecker: authorizationChecker,
       cors: true,
