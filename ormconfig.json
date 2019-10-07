@@ -1,5 +1,5 @@
 {
-  "type": "postgres",
+  "type": "pg",
   "database": "database.postgress",
   "port": 5432,
   "username": "xmggsfcsbdzxad",
